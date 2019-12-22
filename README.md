@@ -1,17 +1,9 @@
-# fijkplayer (Video player plugin for Flutter) Flutter 媒体播放器
+# fijkplayer (Video player plugin for Flutter) Flutter 
 
-✨ **[手把手带你写 Flutter 系统音量插件](https://www.yuque.com/befovy/share/flutter_volume)**  ✨  **[Flutter 多版本管理工具 fvm](https://github.com/befovy/fvm)** ✨
-
-[![pub package](https://img.shields.io/pub/v/fijkplayer.svg)](https://pub.dartlang.org/packages/fijkplayer) &nbsp; &nbsp;
-[![Build Status](https://travis-ci.org/befovy/fijkplayer.svg?branch=master)](https://travis-ci.org/befovy/fijkplayer) &nbsp; &nbsp;
 
 A Flutter media player plugin for iOS and android based on [ijkplayer](https://github.com/befovy/ijkplayer)
 
-您的支持是我们开发的动力。 欢迎Star，欢迎PR~。
-[Feedback welcome](https://github.com/befovy/fijkplayer/issues) and
-[Pull Requests](https://github.com/befovy/fijkplayer/pulls) are most welcome!
-
-## Documentation 文档
+## Documentation
 
 * Development Documentation https://fijkplayer.befovy.com/docs/en/ quick start、guide、and concepts about fijkplayer 
 * 开发文档  https://fijkplayer.befovy.com/docs/zh/ 包含快速开始、使用指南、fijkplayer 中的概念理解
@@ -19,7 +11,7 @@ A Flutter media player plugin for iOS and android based on [ijkplayer](https://g
 * Release Notes https://github.com/befovy/fijkplayer/releases and [CHANGELOG.md](./CHANGELOG.md)
 * FAQ https://fijkplayer.befovy.com/docs/zh/faq.html
 
-## Installation 安装
+## Installation 
 
 Add `fijkplayer` as a [dependency in your pubspec.yaml file](https://flutter.io/using-packages/). 
 
@@ -33,11 +25,11 @@ Use git branch which not published to pub.
 dependencies:
   fijkplayer:
     git:
-      url: https://github.com/befovy/fijkplayer.git
+      url: https://github.com/salzanoo/fijkplayer.git
       ref: develop # can be replaced to branch or tag name
 ```
 
-## Example 示例
+## Example
 
 ```dart
 import 'package:fijkplayer/fijkplayer.dart';
@@ -87,17 +79,17 @@ class _VideoScreenState extends State<VideoScreen> {
 ## Already in use in following apps
 Contact me or create pull request to add your app here.
 
-## Contributors 贡献者 ✨
+## Contributors
 
 Thanks goes to [these wonderful people](./CONTRIBUTORS.md) ([emoji key](https://allcontributors.org/docs/en/emoji-key))
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome
 
-## iOS Warning 警告
+## iOS Warning
 
 Warning: The fijkplayer video player plugin is not functional on iOS simulators. An iOS device must be used during development/testing. For more details, please refer to this [issue](https://github.com/flutter/flutter/issues/14647).
 
 
-## Next Plan 计划
+## Next Plan 
 
 See the development plan of next version in https://github.com/befovy/fijkplayer/projects/2
